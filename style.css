@@ -1,0 +1,23 @@
+#nomber .Nomber {
+  width: 75px;
+  height: 75px;
+  background-image: url("images/sprite-home.png");
+}
+
+#symptoms .Symptoms {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border: 1px dashed black;
+  background-image: url("images/sprite-home-v3.png");
+}
+
+#protectu .Protectu {
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  border: 1px solid black;
+  background-image: url("images/sprite-home-v3.png");
+}
+
+/*# sourceMappingURL=style.css.map */
