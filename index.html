@@ -6,35 +6,71 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <title>..:: CODIGO ::..</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 
 <body>
 
-<!-- H E A D E R --------------------------------------------------------------------------------------------->
-    <section id="header">
-        <nav>
-            <ul>
-                <li>
-                    <img src="images/coronavirus-logo.png">
-                </li>
-                <li class="current">Home</li>
-                <li>Covid-19</li>
-                <li>Prevention</li>
-                <li>Blog</li>
-                <li>FAQ</li>
-                <li>CONTACT US</li>
-                <li>
-                    <button type="button">CALL A DOCTOR</button>
-                </li>
-            </ul>
+<!-- N A V B A R --------------------------------------------------------------------------------------------->
+    <section id="header" class="container-fluid">
+
+        <section class="container navbar-expand-lg">
+        
+            <div class="d-flex justify-content-between">
+                <img class="navbar-brand" src="images/coronavirus-logo.png">
+            </div>
+            <nav class="container-fluid navbar">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-white" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Covid-19</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Prevention</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">FAQ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">CONTACT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="badge badge-pill badge-danger">CALL A DOCTOR</a>
+                    </li>
+                </ul>
+            </div>
+
         </nav>
-        <img src="images/people.png">
-        <h1>COVID-19</h1>
-        <p>Basic protective measures</p>
-        <h2>Social Distancing</h2>
-        <p>For Emergency Contact (012) 345 6789</p>
-        <button type="button">GET STARTED NOW!</button>
+        
+    </section>
+
+<!-- H E A D E R --------------------------------------------------------------------------------------------->
+
+        <article class="container">
+            <h1>COVID-19</h1>
+            <p>Basic protective measures</p>
+            <h2>Social Distancing</h2>
+            <p>For Emergency Contact (012) 345 6789</p>
+            <a class="badge badge-pill badge-danger">GET STARTED NOW!</a>
+        </article>
+
+        <div class="d-flex justify-content-end align-items-end">
+            <img src="images/people.png">
+        </div>
+
     </section>
 
 <!-- N O M B E R --------------------------------------------------------------------------------------------->

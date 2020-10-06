@@ -1,3 +1,9 @@
+#header {
+  background-image: url(images/header-banner.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
 #nomber .Nomber {
   width: 75px;
   height: 75px;
