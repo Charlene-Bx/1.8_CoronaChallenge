@@ -13,86 +13,99 @@
 </head>
 
 <body>
-
-    <section id="header" class="container-fluid">
-<!-- N A V B A R --------------------------------------------------------------------------------------------->
-        <section class="container d-flex justify-content-between p-5">
-            <div>
-                <img class="navbar-brand" src="images/coronavirus-logo.png">
-            </div>
-
-            <div>
-                <nav class="navbar navbar-expand-lg">
-
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav align-items-center">
-                        <li class="nav-item pr-3 active">
-                            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item pr-3">
-                            <a class="nav-link" href="#">Covid-19</a>
-                        </li>
-                        <li class="nav-item pr-3">
-                            <a class="nav-link" href="#">Prevention</a>
-                        </li>
-                        <li class="nav-item pr-3">
-                            <a class="nav-link" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item pr-3">
-                            <a class="nav-link" href="#">FAQ</a>
-                        </li>
-                        <li class="nav-item pr-3">
-                            <a class="nav-link" href="#">CONTACT US</a>
-                        </li>
-                        <li class="nav-item m-0 p-0">
-                            <a class="font-weight-lighter badge badge-pill badge-danger p-3" style="font-size: 100%;">CALL A DOCTOR</a>
-                        </li>
-                    </ul>
-                </div>
-                </nav> 
-            </div>
-        </section>
-           
 <!-- H E A D E R --------------------------------------------------------------------------------------------->
-        <article class="container">
-                <h1>COVID-19</h1>
-                <p>Basic protective measures</p>
-                <h2>Social Distancing</h2>
-                <p>For Emergency Contact (012) 345 6789</p>
-                <a class="badge badge-pill badge-danger">GET STARTED NOW!</a>
-            </article>
+    <section id="Header" class="container-fluid">
 
+<!-- N A V B A R --------------------------------------------------------------------------------------------->       
+        <div id="NavBar" class="container">
+            <section class="container d-flex justify-content-between">
+
+                <div>
+                    <img class="navbar-brand" src="images/coronavirus-logo.png">
+                </div>
+    
+                <div>
+                    <nav class="navbar navbar-expand-lg">
+    
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav align-items-center">
+                            <li class="nav-item pr-3 active">
+                                <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item pr-3">
+                                <a class="nav-link" href="#">Covid-19</a>
+                            </li>
+                            <li class="nav-item pr-3">
+                                <a class="nav-link" href="#">Prevention</a>
+                            </li>
+                            <li class="nav-item pr-3">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item pr-3">
+                                <a class="nav-link" href="#">FAQ</a>
+                            </li>
+                            <li class="nav-item pr-3">
+                                <a class="nav-link" href="#">CONTACT US</a>
+                            </li>
+                            <li class="nav-item m-0 p-0">
+                                <a class="btnrg badge badge-pill badge-danger p-3">CALL A DOCTOR</a>
+                            </li>
+                        </ul>
+                    </div>
+                    </nav> 
+                </div>
+            </section>
+        </div>
+<!-- A C C E U I L --------------------------------------------------------------------------------------------->
+        <div class="container">
+            <div>
+                <article id="TitreHeader" class="">
+                    <h1>COVID-19</br>
+                        <small>Basic protective measures</small>
+                    </h1>
+                    <h1>Social Distancing</h1>
+                    <p id="EmerHeader">For Emergency Contact (012) 345 6789</p>
+                    <a class="btnrg badge badge-pill badge-danger p-3">GET STARTED NOW!</a>
+                </article>
+            </div>
+        </div>
+            <div id="IlluHeader" class="">
+                <img class="img-fluid" src="images/people.png" alt="illustration de personnes">
+            </div>
     </section>
 
 <!-- N O M B E R --------------------------------------------------------------------------------------------->
-    <section id="nomber">
-        <article class="Corona" id="confirmed">
-            <div class="Nomber">
+    <section id="nomber" class="container-fluid">
+
+        <article class="container d-flex">
+            <div class="Corona" id="confirmed">
+                <div class="Nomber">
                 <!--Image en CSS-->
+                </div>
+                <h6>Total Confirmed Cases</h6>
             </div>
-            <h6>Total Confirmed Cases</h6>
-        </article>
-        <article class="Corona" id="death">
-            <div class="Nomber">
+            <div class="Corona" id="death">
+                <div class="Nomber">
                 <!--Image en CSS-->
+                </div>
+                <h6>Total Deaths</h6>
             </div>
-            <h6>Total Deaths</h6>
-        </article>
-        <article class="Corona" id="recovered">
-            <div class="Nomber">
+            <div class="Corona" id="recovered">
+                <div class="Nomber">
                 <!--Image en CSS-->
+                </div>
+                <h6>Recovered</h6>
             </div>
-            <h6>Recovered</h6>
-        </article>
-        <article class="Corona" id="contries">
-            <div class="Nomber">
+            <div class="Corona" id="contries">
+                <div class="Nomber">
                 <!--Image en CSS-->
+                </div>
+                <h6>Countries</h6>
             </div>
-            <h6>Countries</h6>
         </article>
     </section>
 

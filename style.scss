@@ -14,15 +14,54 @@ body{
     .pill{
         font-weight: lighter;
     }
-    // H E A D E R --------------------------------------------------------------------------------------------------- 
-    #header{
-    background-image: url(images/header-banner.jpg);
-    background-size: cover;
-    height: 100vh;
 
-
+    h1{
+        font-weight: bolder;
+        font-size: 3.5em;
+        line-height: 45px;
     }
 
+    .btnrg{
+        background-color: #dc3545ed;
+        font-weight: lighter;
+        font-size: 100%;
+
+        &:hover{
+            background-color: #dc3545ed;
+            box-shadow: 0 0 40px 7px #dc3545ed;
+
+        }
+    }
+
+    // H E A D E R --------------------------------------------------------------------------------------------------- 
+    #Header{
+        background-image: url(images/header-banner.jpg);
+        background-size: cover;
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+
+        #NavBar{
+            padding-top: 4%;
+        }
+        #TitreHeader{
+            position: absolute;
+            top: 50%;
+            z-index: 2;
+        }
+
+        #IlluHeader{
+            width: 50%;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            z-index: 1;
+        }
+
+        #EmerHeader{
+            margin-bottom: 8%;
+        }
+    }
     // N O M B E R --------------------------------------------------------------------------------------------------- 
     #nomber{
         .Nomber{
