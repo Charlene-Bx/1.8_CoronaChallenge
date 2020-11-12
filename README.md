@@ -1,7 +1,11 @@
-### BECODE ###
-## Week 04 ##
+[L I N K](https://charlene-bx.github.io/1.8_CoronaChallenge/)
 
+### ABOUT
+Réalisation d'un site web depuis un **MockUp**. Avec la librairie **bootstrap** et le language **sass**
 
-[ [ L I N K ] ](https://charlene-bx.github.io/Corona-challenge)
+### FOR
+Réponse à un exercice dans le cadre de la formation [BeCode](https://github.com/becodeorg/BXL-Johnson-5.25).
 
-The result of [this](https://github.com/becodeorg/Startup-Brussels-Johnson-5.25/tree/master/1.The-Field/week_03/covid-19-challenge) exercice
+### WHO
+Charlène Bonnardeaux
+
